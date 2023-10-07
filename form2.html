@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+</body>
+</html>
 <head>
 
 <body>
@@ -46,10 +55,9 @@
 
         <div>
             <label for="site">Seu site</label>
-            <label for="url" id="site" name="site" required>
+            <input type="url" id="site" name="site" required><br>
             <label for="senha">Senha</label>
-            <input type="password" id="senha" name="senha"
-            required>
+            <input type="password" id="senha" name="senha" required>
         </div>
     
         <div>
@@ -64,7 +72,7 @@
 
         </div>
 
-        <div>
+        <div class="peso">
             <label for="peso">Peso</label>
             0<input type="range" id="peso" name="peso" min="0" max="200"> 200
 
@@ -91,18 +99,18 @@
                 <option value="PB">PB</option>
             </select>
         </div>
-
-        <div>
+        
+        <div class="radio">
             <p>Grau de Estudo</p>
             <input type="radio" id="medio" name="medio" value="Ensino Médio">
             <label for="medio">Ensino Médio</label><br>
             <input type="radio" id="faculdade" name="medio" value="Ensino Superior">
-            <label for="faculdade">Ensino Superior</label>
+            <label for="faculdade">Ensino Superior</label><br>
             <input type="radio" id="mestrado" name="medio" value="mestrado">
             <label for="mestrado">Mestrado</label>   
         </div>
 
-
+        
     </form>
 
 </body>
