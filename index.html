@@ -1,56 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head> <link rel="stylesheet" href="estilo.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript</title>
 </head>
 <body>
-    <h1>display: block;</h1>
-        <section class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-    </section>   
+    <button onclick="escreveTexto()">ESCREVER TEXTO</button>
+    <button onclick="corDoFundo('violet')">VIOLETA</button>
+    <button onclick="corDoFundo2('yellow')">AMARELO</button>
+    <h1 id="titulo"></h1>
+    <p id="texto"></p>
 
-    <h1>display: flex;</h1>
-        <section class="container flex">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-    </section>   
-    
-    <h1>display: flex;</h1>
-        <section class="container flex">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>
-    </section> 
-
-    <h1>display: flex;</h1>
-        <section class="container flex flex-wrap">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>
-    </section> 
-
-    <h1>display:flex;//flex-item</h1>
-    <section class="container flex">
-        <div class="item flex-item-1">Teste 1</div>
-        <div class="item flex-item-1">Teste 2</div>
-        <div class="item flex-item-1">Teste 3</div>
-
-    </section>    
-    
+    <script src="app.js"></script>
 </body>
 </html>
